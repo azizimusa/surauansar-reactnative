@@ -20,6 +20,8 @@ const AppNavigator = createStackNavigator({
             title: 'Surau Al-Ansar',
             headerStyle: {
                 backgroundColor: '#4469ff',
+                shadowOpacity: 0,
+                elevation: 0,
             },
             headerTintColor: '#fff',
             headerTitleStyle: {
