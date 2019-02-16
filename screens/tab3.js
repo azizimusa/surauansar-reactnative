@@ -13,7 +13,24 @@ export default class Tab3 extends React.Component {
     return(
         <Container>
             <Content padder>
-                <Text>Tab 3</Text>
+                <Card>
+                    <CardItem>
+                        <Icon active type="FontAwesome" name="edit" />
+                        <Text>Khairat Kematian</Text>
+                        <Right>
+                            <Icon name="arrow-forward" />
+                        </Right>
+                    </CardItem>
+                </Card>
+                <Card>
+                    <CardItem>
+                        <Icon active type="FontAwesome" name="edit" />
+                        <Text>Korban 2019</Text>
+                        <Right>
+                            <Icon name="arrow-forward" />
+                        </Right>
+                    </CardItem>
+                </Card>
             </Content>
         </Container>
     )
