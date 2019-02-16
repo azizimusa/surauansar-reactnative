@@ -7,7 +7,7 @@ export default class About extends Component {
   render() {
     return(
         <Container>
-            <Header>
+            <Header style={{backgroundColor: '#4469ff'}}>
                 <Left>
                     <Button transparent onPress={() => this.props.navigation.goBack()}>
                         <Icon name="arrow-back" />

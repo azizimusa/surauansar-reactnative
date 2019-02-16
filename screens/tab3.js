@@ -3,7 +3,13 @@ import {Container, Header, Title, Content, Button, Icon, Left, Right, Body, Text
 
 export default class Tab3 extends React.Component {
 
-  render() {
+    constructor(props) {
+        super(props);
+        console.disableYellowBox = true;
+    }
+
+
+    render() {
     return(
         <Container>
             <Content padder>
