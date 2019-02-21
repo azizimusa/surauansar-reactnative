@@ -1,7 +1,7 @@
 import React from "react";
 import {Container, Content, Icon, Right, Text, Card, CardItem } from "native-base";
 
-export default class Tab3 extends React.Component {
+export default class Tab5 extends React.Component {
 
     constructor(props) {
         super(props);

@@ -10,6 +10,7 @@
 import {createStackNavigator, createAppContainer, Header} from 'react-navigation';
 import HomeScreen from './screens/home';
 import About from './screens/about';
+import KhairatKematian from './screens/kk';
 import React from "react";
 import {Container, Title, Content, Button, Icon, Left, Right, Body, Text, Card, CardItem } from "native-base";
 
@@ -41,6 +42,13 @@ const AppNavigator = createStackNavigator({
             header: null
         }),
     },
+    KK: {
+        screen: KhairatKematian,
+        navigationOptions: () => ({
+            header: null
+        }),
+    }
+
 });
 
 export default createAppContainer(AppNavigator);
